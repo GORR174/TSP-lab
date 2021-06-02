@@ -34,5 +34,5 @@ fun main() {
     val shortestPath = citiesMap.getShortestPath()
 
     println("----------------")
-    println("Кратчайший путь: $shortestPath имеет длину ${shortestPath.length}")
+    println("Кротчайший путь: $shortestPath имеет длину ${shortestPath.length}")
 }

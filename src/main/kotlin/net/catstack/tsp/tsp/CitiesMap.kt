@@ -13,6 +13,7 @@ class CitiesMap(vararg cities: City) : ArrayList<City>() {
 
     /***
      * Метод, возвращающий кротчайший маршрут, удовлетворяющий условию задачи коммивояжёра
+     * @return кротчайший маршрут
      */
     fun getShortestPath(): CitiesPath {
         val permutations = this.generatePermutations().map { CitiesPath(it) }
